@@ -58,6 +58,7 @@
 			<groupId>edu.cmu.sphinx</groupId>
 			<artifactId>sphinx4-data</artifactId>
 			<version>5prealpha-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>

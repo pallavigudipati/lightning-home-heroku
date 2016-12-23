@@ -26,6 +26,5 @@ public class SpeechRecognizer extends HttpServlet {
         out.write(outStr.getBytes());
         out.flush();
         out.close();
-    }
-    
+    }   
 }

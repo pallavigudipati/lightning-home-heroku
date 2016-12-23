@@ -46,12 +46,12 @@
 			<groupId>edu.cmu.sphinx</groupId>
 			<artifactId>sphinx4-core</artifactId>
 			<version>5prealpha-SNAPSHOT</version>
+			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>edu.cmu.sphinx</groupId>
 			<artifactId>sphinx4-samples</artifactId>
-			<version>5prealpha-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -88,4 +88,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>edu.cmu.sphinx</groupId>
+				<artifactId>sphinx4-samples</artifactId>
+				<version>5prealpha-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
